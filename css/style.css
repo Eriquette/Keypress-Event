@@ -1,0 +1,124 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin:8vh;
+  text-align: center;
+  background-color: black;
+}
+
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+/***************************************
+
+*****************************************/
+section{
+  background: white;
+  padding: 18vh;
+}
+
+h1{
+  font-size: 3em;
+  margin-top: 0;
+}
+
+span{
+  font-size: 4em;
+}
+
+h2{
+  font-size: 2em;
+}
+
+kbd{
+  font-size: 2.5em;
+  border: 1px solid black;
+  padding: 10px;
+  box-shadow: 4px 8px black;
+  transition: .2s;
+}
+
+kbd:hover {
+  color: white;
+  box-shadow: 4px 8px gray;
+  background-color: black;
+}
+
+/***************************************
+
+*****************************************/
+
+
+/***************************************
+
+*****************************************/
+
+
+/***************************************
+MEDIA QUERIES
+*****************************************/
+
+/* tablet */
+@media (min-width: 768px) and (max-width: 1023px){
+
+  section{
+    padding: 10vh;
+    padding-bottom: 40vh;
+  }
+
+  h1{
+
+    font-size: 2.5em;
+  }
+
+  span{
+    font-size: 3.5em;
+  }
+
+  h2{
+    font-size: 1em;
+  }
+
+  kbd{
+    font-size: 2em;
+
+  }
+}
+
+/* mobile */
+@media screen and (max-width: 767px){
+  body {
+    margin:7vh;
+  }
+
+  section{
+    padding: 8vh;
+    padding-bottom: 40vh;
+  }
+
+  h1{
+    font-size: 2.5em;
+  }
+
+  span{
+    font-size: 3.5em;
+  }
+
+  h2{
+    font-size: 1em;
+  }
+
+  kbd{
+    font-size: 1.2em;
+
+  }
+  }
+}
